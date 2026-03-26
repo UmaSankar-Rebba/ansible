@@ -1,0 +1,43 @@
+{
+    "students": [
+        {
+            "firstname": "Uma Sankar",
+            "DOB": "09-08-2001",
+            "Email": "umasankarrebba@gmail.com",
+            "address": [
+                {
+                    "type": "perminent",
+                    "Hno": "2-167",
+                    "street": "mettagudem road",
+                    "city": "t.narsapuram"
+                },
+                {
+                    "type": "current",
+                    "Hno": "2-167",
+                    "street": "mettagudem road",
+                    "city": "t.narsapuram"
+                }
+            ]
+        },
+        {
+            "firstname": "abhigna",
+            "DOB": "09-08-2001",
+            "street name": "mettagudem road",
+            "city": "t.narsapuram",
+            "address": [
+                {
+                    "type": "perminent",
+                    "Hno": "2-167",
+                    "street": "mettagudem road",
+                    "city": "t.narsapuram"
+                },
+                {
+                    "type": "current",
+                    "Hno": "2-167",
+                    "street": "mettagudem road",
+                    "city": "t.narsapuram"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+<students>
+ <student>
+  <firstname>Uma Sankar</firstname>
+    <DOB>09-08-2001</DOB>
+    <Email>umasankarrebba@gmail.com</Email>
+    <address>
+     <perm>
+      <Hno>2-167</Hno>
+      <street>mettagudem road</street>
+      <city>t.narasapuram</city>
+     </perm>
+     <temp>
+      <Hno>2-167</Hno>
+      <street>mettagudem road</street>
+      <city>t.narasapuram</city>
+     </temp>
+    </address>
+ </student>
+<student>
+  <firstname>abhigna</firstname>
+    <DOB>09-08-2002</DOB>
+    <Email>abhignareddy@gmail.com</Email>
+    <address>
+     <perm>
+      <Hno>2-167</Hno>
+      <street>mettagudem road</street>
+      <city>t.narasapuram</city>
+     </perm>
+     <temp>
+      <Hno>2-167</Hno>
+      <street>mettagudem road</street>
+      <city>t.narasapuram</city>
+     </temp>
+    </address>
+ </student>
+</students>
