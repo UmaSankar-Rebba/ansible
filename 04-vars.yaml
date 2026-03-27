@@ -1,11 +1,11 @@
 - name: play level varaibles
   hosts: local
   connection: local
-    vars:
-      Course: "DevOps with aws"
-      Learner: "Uma Sankar Rebba"
-      Trainer: "Siva Kumar Reddy"
-    tasks:
+  vars:
+    Course: "DevOps with aws"
+    Learner: "Uma Sankar Rebba"
+    Trainer: "Siva Kumar Reddy"
+  tasks:
     - name: print varaibles
       ansible.builtin.debug:
        msg: "{{ Learner }}, is learning {{ Course }}, by {{ Trainer }}"
