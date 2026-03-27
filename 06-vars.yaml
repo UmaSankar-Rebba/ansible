@@ -1,0 +1,11 @@
+- name: play level varaibles
+  hosts: local
+  connection: local
+  vars_files:
+  - course.yaml
+  tasks:
+    - name: print varaibles
+      vars:
+        Learner: "Uma"
+      ansible.builtin.debug:
+       msg: "{{ Learner }}, is learning {{ Course }}, by {{ Trainer }}"
