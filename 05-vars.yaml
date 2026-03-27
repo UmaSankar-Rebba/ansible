@@ -8,6 +8,6 @@
   tasks:
     - name: print varaibles
       vars:
-        Learner: "DevOps"
+        Learner: "Uma"
       ansible.builtin.debug:
        msg: "{{ Learner }}, is learning {{ Course }}, by {{ Trainer }}"
