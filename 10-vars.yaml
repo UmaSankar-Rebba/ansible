@@ -3,15 +3,15 @@
   connection: local
   vars_files:
     - course.yaml
-  #vars:
-    #Company: Magnasoft from play level
-  #vars_prompt:
-    #- name: Company
-      #prompt: please enter the company name 
-      #private: false
+  vars:
+    Company: Magnasoft from play level
+  vars_prompt:
+    - name: Company
+      prompt: please enter the company name 
+      private: false
   tasks:
     - name: printing task level varaibles
-      #vars:
-       #Company: Magnasoft from task level
+      vars:
+       Company: Magnasoft from task level
       ansible.builtin.debug:
        msg: "I am working in {{ Company}}"
