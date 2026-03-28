@@ -4,4 +4,4 @@
   tasks:
     - name: print varaibles
       ansible.builtin.debug:
-       msg: "Hi I am learning {{ Course }} with sivakumar"
+       msg: "Hi I am learning {{ course }} with sivakumar"
