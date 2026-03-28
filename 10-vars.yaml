@@ -3,8 +3,8 @@
   connection: local
   vars_files:
     - course.yaml
-  vars:
-    Company: Magnasoft from play level
+  #vars:
+    #Company: Magnasoft from play level
   #vars_prompt:
     #- name: Company
       #prompt: please enter the company name 
