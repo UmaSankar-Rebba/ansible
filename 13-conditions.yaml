@@ -1,0 +1,10 @@
+- name: checking the given number is greater than 10
+  hosts: local
+  connection: local
+  vars:
+    NUM1: 5
+  tasks:
+    - name: print the highest number
+      ansible.builtin.debug:
+       msg: "the given number is not greater than 10"
+      when: NUM1 < 10
