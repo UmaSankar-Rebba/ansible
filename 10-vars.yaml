@@ -5,10 +5,10 @@
     - course.yaml
   vars:
     Company: Magnasoft from play level
-  vars_prompt:
-    - name: Company
-      prompt: please enter the company name 
-      private: false
+  #vars_prompt:
+    #- name: Company
+      #prompt: please enter the company name 
+      #private: false
   tasks:
     - name: printing task level varaibles
       #vars:
