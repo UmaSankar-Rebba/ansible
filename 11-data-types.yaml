@@ -1,0 +1,23 @@
+- name: demo on data types
+  hosts: local
+  connection: local
+  vars:
+    program: "DevSecOps with aws"
+    duration: 140
+    IS_LIVE: true
+    details: #map/dictionary
+     months: 4
+     trainer: "Siva kumar"
+    topics: #-/[]
+     -linux
+     -shell script
+     -ansible
+  tasks:
+    - name: print varaibles
+      ansible.builtin.debug:
+       msg: |
+        program: {{ program }}
+        duration: {{ duration }}
+        IS LIVE: {{ IS_LIVE }}
+        details: {{ details }}
+        topics: {{ topics }}
