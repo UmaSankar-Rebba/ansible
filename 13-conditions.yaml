@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    NUM1: 5
+    NUM1: 10
   tasks:
     - name: print the highest number
       ansible.builtin.debug:
