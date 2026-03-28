@@ -11,7 +11,7 @@
       private: false
   tasks:
     - name: printing task level varaibles
-      #vars:
-       #Company: Magnasoft from task level
+      vars:
+       Company: Magnasoft from task level
       ansible.builtin.debug:
        msg: "I am working in {{ Company}}"
