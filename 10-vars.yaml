@@ -7,7 +7,7 @@
     Company: Magnasoft from play level
   vars_prompt:
     - name: Company
-      prompt: please enter the company name:
+      prompt: please enter the company name 
       private: false   
   tasks:
     - name: printing task level varaibles
